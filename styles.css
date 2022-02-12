@@ -110,7 +110,7 @@ img {
 
 .section-3 {
     background: #E5E7EB;
-    padding: 64px 200px;
+    padding: 64px 256px;
 }
 
 .quote {
@@ -136,10 +136,11 @@ img {
     align-items: center;
     height: 96px;
     color: white;
+    gap: 16px
 }
 
 .section-4-left p {
-    margin: 0px;
+    margin: 0px 0px 0px 16px;
 }
 
 /* Footer */
@@ -167,4 +168,5 @@ button {
 
 .button-2 {
     border: 1px solid white;
+    margin-right: 16px;
 }
