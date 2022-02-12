@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section-1, .footer {
@@ -37,6 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 64px 0px 32px;
 }
 
 .section-1-right {
@@ -53,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    align-items: flex-start;
 }
 
 .section-1-left p {
@@ -100,4 +102,56 @@ body {
 
 .section-3 {
     background: #E5E7EB;
+    padding: 64px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.section-4{
+    display: flex;
+    margin: 64px;
+    background: #3882F6;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    height: 100px;
+    color: white;
+}
+
+.section-4-left p{
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #c4c4c4;
+    padding: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background:#3882F6;
+    border: 0px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.button-1 {
+    margin-top: 5px;
+}
+
+.button-2 {
+    border: 1px solid white;
 }
