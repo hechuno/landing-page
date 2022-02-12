@@ -42,12 +42,13 @@ body {
 
 .section-1-right {
     display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    background-color: #292929;
-    align-self: stretch;
-    margin: 0 0 0 32px;
+    flex: 1 1 0;
+    justify-content: flex-end;
+}
+
+img {
+    max-width: 80%;
+    object-fit: cover;
 }
 
 .section-1-left {
